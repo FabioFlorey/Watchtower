@@ -15,7 +15,7 @@ Summary of the project, including its purpose and how to use it.
 
 
 <div align="center">
-  <img alt="logo" src="./assets/logo.png"></img>
+  <img alt="logo" height=200 src="./assets/logo.png"></img>
   <h1>Watchtower</h1>
   <h4>Watchtower monitors changes on webpages</h4>
 </div>
