@@ -1,0 +1,13 @@
+# =============================================================================
+# Watchtower
+# =============================================================================
+# CODEOWNERS
+# -----------------------------------------------------------------------------
+# File specifying code ownership for the project.
+#
+# :Authors: Fabio Craig Wimmer Florey <fabioflorey@icloud.com>
+# :Version: 0.0.1
+# :License: MIT-0
+
+
+* @FabioFlorey

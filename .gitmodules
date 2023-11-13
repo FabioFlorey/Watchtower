@@ -1,0 +1,15 @@
+# =============================================================================
+# Watchtower
+# =============================================================================
+# .GITMODULES
+# -----------------------------------------------------------------------------
+# Configuration file for Git submodules.
+#
+# :Authors: Fabio Craig Wimmer Florey <fabioflorey@icloud.com>
+# :Version: 0.0.1
+# :License: MIT-0
+
+
+# [submodule "NAME"]
+#	 path = NAME
+#	 url  = URL

@@ -1,0 +1,109 @@
+# =============================================================================
+# Watchtower
+# =============================================================================
+# Bug Report
+# -----------------------------------------------------------------------------
+# Issue Template for GitHub.
+#
+# :Authors: Fabio Craig Wimmer Florey <fabioflorey@icloud.com>
+# :Version: 0.0.1
+# :License: MIT-0
+
+
+name: Bug Report
+description: 🪲 Something isn't working
+labels: bug
+body:
+  - type: input
+    id: Version
+    attributes:
+      label: Version
+      description: What version of the project are you running?
+      placeholder: 0.0.1
+  - type: textarea
+    id: Description
+    attributes:
+      label: Description
+      description: Write a short description and expand in the steps
+      placeholder: |
+        When I ...
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: Steps
+    attributes:
+      label: Steps to Reproduce
+      description: Describe how to reproduce the bug
+      placeholder: |
+        1. The first step is to what you did
+        2. You can add some code
+          ```python
+            # some code
+          ```
+        3. This description will be rendered as markdown
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: Expected_Results
+    attributes:
+      label: Expected Results
+      description: Describe the expected results
+      placeholder: |
+        1 + 1 = 2  
+      render: markdown
+    validations:
+      required: false
+  - type: textarea
+    id: Actual_Results
+    attributes:
+      label: Actual Results
+      description: Describe the actual results
+      placeholder: |
+        1 + 1 = 4  
+      render: markdown
+    validations:
+      required: false
+  - type: textarea
+    id: Environment
+    attributes:
+      label: Environment
+      description: Provide informations about the environment
+      placeholder: |
+        ...
+      render: markdown
+    validations:
+      required: false
+  - type: textarea
+    id: StackTrace
+    attributes:
+      label: Error Traceback
+      description: Provide the Traceback (if possible)
+      placeholder: |
+        Traceback (most recent call last):
+        ...
+        Error: ...
+      render: python
+    validations:
+      required: false
+  - type: textarea
+    id: Comments
+    attributes:
+      label: Additional Comments
+      description: Provide additional commentary
+      placeholder: |
+        I think this bug report is awesome!   
+      render: markdown
+    validations:
+      required: false
+  - type: checkboxes
+    id: Terms
+    attributes:
+      label: Code of Conduct
+      description: |
+        By submitting this issue, you agree to follow our [Code of Conduct](../blob/main/docs/community/CODE_OF_CONDUCT.md)
+        ⚠️ **If you are reporting a security issue, read the [SECURITY](../blob/main/.github/SECURITY.md) file, thank you!**
+      options:
+        - label: I agree to follow this project's Code of Conduct and I read the SECURITY file
+          required: true

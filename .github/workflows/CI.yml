@@ -1,0 +1,60 @@
+# =============================================================================
+# Watchtower
+# =============================================================================
+# Continuous Integration
+# -----------------------------------------------------------------------------
+# Configuration file for GitHub Actions.
+#
+# :Authors: Fabio Craig Wimmer Florey <fabioflorey@icloud.com>
+# :Version: 0.0.1s
+# :License: MIT-0
+
+
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      ['master'] # I know it's main, but I don't want to trigger it for now! :P
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9' 
+    - name: Upgrade pip and install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -r tests/test-requirements.txt
+    - uses: actions/checkout@v3
+    - name: Check files using the black formatter
+      uses: rickstaa/action-black@v1
+      id: action_black
+      with:
+        black_args: "."
+    - name: Create Pull Request
+      if: steps.action_black.outputs.is_formatted == 'true'
+      uses: peter-evans/create-pull-request@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: "Format Python code with psf/black push"
+        commit-message: "Code formatted with Black"
+        body: |
+          There appear to be some python formatting errors in ${{ github.sha }}. 
+          This pull request uses the [psf/black](https://github.com/psf/black) formatter to fix these issues.
+        base: ${{ github.head_ref }}
+        branch: CI
+    - name: Test with tox
+      run: tox
+    - name: Test with CodeCoverage
+      if: success()
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./tests/coverage.xml
+        token: ${{ secrets.CODE_COVERAGE }}
+    
+  

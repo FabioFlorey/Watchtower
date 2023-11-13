@@ -1,0 +1,5 @@
+colorama
+selenium
+Pillow
+imagehash
+pyyaml

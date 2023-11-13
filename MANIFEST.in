@@ -1,0 +1,17 @@
+# =============================================================================
+# Watchtower
+# =============================================================================
+# MANIFEST.in
+# -----------------------------------------------------------------------------
+# File specifying the files and directories to include in a Python package.
+#
+# :Authors: Fabio Craig Wimmer Florey <fabioflorey@icloud.com>
+# :Version: 0.0.1
+# :License: MIT-0
+
+
+include docs/*
+include conf/*
+include img/*
+include lib/*
+include tests/*

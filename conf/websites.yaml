@@ -1,0 +1,20 @@
+Google:
+  html_checksum: updated
+  image_checksum: true
+  last_check: '2023-11-13'
+  status_code:
+  - 200
+  - OK
+  steps:
+  - //*[@id="L2AGLb"]/div
+  url: https://www.google.com
+Terna:
+  html_checksum: updated
+  image_checksum: true
+  last_check: '2023-11-13'
+  status_code:
+  - 200
+  - OK
+  steps:
+  - //*[@id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"]
+  url: https://www.terna.it/it
