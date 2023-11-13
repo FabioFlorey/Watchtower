@@ -90,11 +90,17 @@ You can find the list of each module needed by the software within the [requirem
 Explain how you will use the project with examples, code snippets and screenshots\GIFs.
 
 ### Features
-- [ ] **Feature 1**
+- [x] **Website Status Recognition**
 
-  Why is this feature useful? What does it do? How does it work?
+  `Watchtower` monitors each each website status code and status message.
 
-  As always, provide details, examples and screenshots\GIFs.
+- [x] **Graphical Change Recognition**
+
+  `Watchtower` monitors each each website appereance by a crop resistant checksum of a website snap.
+
+- [ ] **HTML Structure Recognition**
+
+  `TO DO`
 
 <p align="right"><a href="#readme-header">⮨</a></p>
 
@@ -107,7 +113,7 @@ Please see our [Security Policy][SECURITY] for reporting vulnerabilities.
 This project is licensed under the **MIT** license. See [LICENSE][LICENSE] for more information.
 
 <div align="center"><pre align="center" lang="json">
-Project, Copyright © 2022, Fabio Craig Wimmer Florey - All Rights Reserved.
+Watchtower, Copyright © 2022, Fabio Craig Wimmer Florey - All Rights Reserved.
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -115,16 +121,15 @@ See the License for the specific language governing permissions
 and limitations under the License.
 </pre></div>
 <p align="right"><a href="#readme-header">⮨</a></p>
-
+<!---
 ## Miscellaneous
 ### Additional Documentation
 ### Resources and External Links
 ### References
-
 Documentation, external links, resources and references.
 - Document Example [^1]
-
 <p align="right"><a href="#readme-header">⮨</a></p>
+--->
 
 <!------------------------------------  Hyperlinks ----------------------------------------->
 [FORK]: ../../fork
