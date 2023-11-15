@@ -44,7 +44,7 @@ Summary of the project, including its purpose and how to use it.
 ## About
 This is the introduction to the repository. It is a good place to introduce the project and its goals.
 
-- What problem is this project solving?
+- When RPA or OCR based robots check websites or webapps, often
 - What is the value of the project? Is anything similar to this project?
 - How did you approach the problem? How does this project solve the problem? 
 
@@ -69,9 +69,8 @@ This is the introduction to the repository. It is a good place to introduce the 
 ### Prerequisites
 To check that the prerequisites are met, review this check-list:
 
-- [ ] **Prerequisite 1** : Description of prerequisite 1
-- [ ] **Prerequisite 2** : Description of prerequisite 2
-- [ ] **Prerequisite 3** : Description of prerequisite 3
+- [x] **Chrome WebDriver**
+- [x] **Python 3.9 or upper**
 
 You can find the list of each module needed by the software within the [requirements][REQUIREMENTS] file.
 

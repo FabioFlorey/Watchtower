@@ -27,7 +27,7 @@ class Message:
         return ''.join([Fore.RED,self.text,Fore.RESET])
 
 from lib.status import get
-from lib.html import html
+from lib.code import get_html
 from lib.image import checksum
 from lib.load import ConfigurationManager
 
@@ -55,8 +55,10 @@ def image_checksum(item):
     cfg.update_website_fields(item[0], image_checksum=image_check)
 
 def code_checksum(item):
-    print(Message(True, f'Il sito {item[0]} {"non" if True else ""} ha cambiato HTML.'))
-    cfg.update_website_fields(item[0], html_checksum='updated')
+    code_checksum = get_html(item[1]['url'])
+    comparison = item[1]['html'] == code_checksum 
+    print(Message(comparison, f'Il sito {item[0]} risulta{" non " if comparison else " "}cambiato a livello HTML.'))
+    cfg.update_website_fields(item[0], html_checksum=comparison, html=code_checksum)
 
 def update_date(item):
     cfg.update_website_fields(item[0], last_check=datetime.now().strftime('%Y-%m-%d'))
