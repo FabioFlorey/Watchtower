@@ -27,7 +27,7 @@ class Message:
         return ''.join([Fore.RED,self.text,Fore.RESET])
 
 from lib.status import get
-from lib.code import get_html
+from lib.parse_html import get_html
 from lib.image import checksum
 from lib.load import ConfigurationManager
 

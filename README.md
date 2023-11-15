@@ -25,7 +25,6 @@ Summary of the project, including its purpose and how to use it.
 ## Table of Contents
 + [About](#about)
   * [Goals](#goals)
-  * [Stakeholders](#stakeholders)
   * [Contribution](#contribution)
 + [Quick Start](#quick-start)
   * [Prerequisites](#prerequisites)
@@ -42,20 +41,14 @@ Summary of the project, including its purpose and how to use it.
 
 
 ## About
-This is the introduction to the repository. It is a good place to introduce the project and its goals.
-
-- When RPA or OCR based robots check websites or webapps, often
-- What is the value of the project? Is anything similar to this project?
-- How did you approach the problem? How does this project solve the problem? 
+Sometimes, certain RPA bot operations can break due to inactive websites, changed HTML, or altered page aesthetics (especially those using OCR). This script aims to monitor these changes to enhance proactivity in response to the described issues.
 
 *Check the [glossary][GLOSSARY] section of the repository.*
 
 <p align="right"><a href="#readme-header">⮨</a></p>
 
 ### Goals
-- What are the long-term\short-term goals of this project? 
-### Stakeholders
-- Who is this project addressed to? Who are the stakeholders of this project?
+The goal is to monitor the status, layout, and HTML of a list of websites to be proactive in case of breaking changes in RPA bots.
 
 <p align="right"><a href="#readme-header">⮨</a></p>
 
@@ -86,7 +79,6 @@ You can find the list of each module needed by the software within the [requirem
 <p align="right"><a href="#readme-header">⮨</a></p>
 
 ## Usage
-Explain how you will use the project with examples, code snippets and screenshots\GIFs.
 
 ### Features
 - [x] **Website Status Recognition**
@@ -96,7 +88,7 @@ Explain how you will use the project with examples, code snippets and screenshot
 - [x] **Graphical Change Recognition**
 
   `Watchtower` monitors each each website appereance by a crop resistant checksum of a website snap.
-
+  
 - [x] **HTML Structure Recognition**
 
    `Watchtower` monitors each each website HTML code, besides hred and values.
