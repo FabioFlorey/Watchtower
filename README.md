@@ -104,7 +104,7 @@ Please see our [Security Policy][SECURITY] for reporting vulnerabilities.
 This project is licensed under the **MIT** license. See [LICENSE][LICENSE] for more information.
 
 <div align="center"><pre align="center" lang="json">
-Watchtower, Copyright © 2022, Fabio Craig Wimmer Florey - All Rights Reserved.
+Watchtower, Copyright © 2023, Fabio Craig Wimmer Florey - All Rights Reserved.
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.

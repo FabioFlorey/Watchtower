@@ -1,6 +1,6 @@
 # MIT No Attribution
 
-_Copyright &copy; 2022 Fabio Craig Wimmer Florey_
+_Watchtower, Copyright &copy; 2023 Fabio Craig Wimmer Florey_
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
