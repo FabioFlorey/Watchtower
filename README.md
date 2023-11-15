@@ -97,7 +97,7 @@ Explain how you will use the project with examples, code snippets and screenshot
 
   `Watchtower` monitors each each website appereance by a crop resistant checksum of a website snap.
 
-- [ ] **HTML Structure Recognition**
+- [x] **HTML Structure Recognition**
 
    `Watchtower` monitors each each website HTML code, besides hred and values.
 
