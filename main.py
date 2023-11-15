@@ -14,8 +14,8 @@ if __name__ == '__main__':
 
     from lib import enqueue
     from lib.load import ConfigurationManager
-
+    from lib.communication import send_mail
     config_manager = ConfigurationManager()
     websites = config_manager.get_all_website_configs()
-
     enqueue.items(websites)
+    send_mail()

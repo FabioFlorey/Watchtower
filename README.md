@@ -93,6 +93,10 @@ You can find the list of each module needed by the software within the [requirem
 
    `Watchtower` monitors each each website HTML code, besides hred and values.
 
+- [x] **Outlook Emails**
+
+   `Watchtower` sends an Outlook email with a table of the anomalies according to an e-mail template.
+
 <p align="right"><a href="#readme-header">⮨</a></p>
 
 ## Security

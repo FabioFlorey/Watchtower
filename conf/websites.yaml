@@ -1,5 +1,5 @@
 Google:
-  html: 35d6007db9cd0484c3e9224e93f5b5807ce2f701193b07fb83bf1da4742f3e0e
+  html: 10eb437f7a08b9648d5d67067964fe7b3d30b5663109078603b3d81cec8105b2
   html_checksum: true
   image_checksum: true
   last_check: '2023-11-15'
@@ -10,7 +10,7 @@ Google:
   - //*[@id="L2AGLb"]/div
   url: https://www.google.com
 Terna:
-  html: f6feb357f08bc611b14ae7526882a2b52495a4c6d005a75cd3bb2a3df94dbd9d
+  html: 55b6ce98be0886be240f22ed90a1ba728e0d30cbde27b592429c20c9940b212a
   html_checksum: true
   image_checksum: true
   last_check: '2023-11-15'
