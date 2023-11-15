@@ -99,7 +99,7 @@ Explain how you will use the project with examples, code snippets and screenshot
 
 - [ ] **HTML Structure Recognition**
 
-  `TO DO`
+   `Watchtower` monitors each each website HTML code, besides hred and values.
 
 <p align="right"><a href="#readme-header">⮨</a></p>
 
