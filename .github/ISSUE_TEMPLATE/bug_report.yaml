@@ -103,7 +103,7 @@ body:
       label: Code of Conduct
       description: |
         By submitting this issue, you agree to follow our [Code of Conduct](../blob/main/docs/community/CODE_OF_CONDUCT.md)
-        ⚠️ **If you are reporting a security issue, read the [SECURITY](../../SECURITY.md) file, thank you!**
+        ⚠️ **If you are reporting a security issue, read the [SECURITY](../../../SECURITY.md) file, thank you!**
       options:
         - label: I agree to follow this project's Code of Conduct and I read the SECURITY file
           required: true
