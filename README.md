@@ -62,7 +62,7 @@ The goal is to monitor the status, layout, and HTML of a list of websites to be 
 ### Prerequisites
 To check that the prerequisites are met, review this check-list:
 
-- [x] **Chrome WebDriver**
+- [x] **Chrome WebDriver (120.0.6099.200 or upper)**
 - [x] **Python 3.9 or upper**
 
 You can find the list of each module needed by the software within the [requirements][REQUIREMENTS] file.
