@@ -1,8 +1,19 @@
-Google:
-  html: 10eb437f7a08b9648d5d67067964fe7b3d30b5663109078603b3d81cec8105b2
-  html_checksum: true
+Example:
+  html: 4e5fd53e5b60ecb92323ad4e2fc3d08a03addab53041f070b8073f68a674a3ed
+  html_checksum: false
   image_checksum: true
-  last_check: '2023-11-15'
+  last_check: '2023-11-17'
+  status_code:
+  - 500
+  - INTERNAL SERVER ERROR
+  steps:
+  - /html/body/div/p[2]/a
+  url: https://example.org
+Google:
+  html: b4e4e3966e90c5458a2e95b3163326c4e76aab9b09aa54f98987aa1a2f47a865
+  html_checksum: false
+  image_checksum: true
+  last_check: '2023-11-17'
   status_code:
   - 200
   - OK
@@ -10,10 +21,10 @@ Google:
   - //*[@id="L2AGLb"]/div
   url: https://www.google.com
 Terna:
-  html: 55b6ce98be0886be240f22ed90a1ba728e0d30cbde27b592429c20c9940b212a
+  html: 9ddfca0cd6f3e8100bf768089c5d30e1fa1827bf07312aae0db33946d41f1618
   html_checksum: true
-  image_checksum: true
-  last_check: '2023-11-15'
+  image_checksum: false
+  last_check: '2023-11-17'
   status_code:
   - 200
   - OK
