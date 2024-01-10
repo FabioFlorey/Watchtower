@@ -1,0 +1,4 @@
+COMMUNICATION:
+  EMAIL:
+    recipient: first_name.last_name
+    subject: Watchtower (Automated Email) [Email Esempio]
